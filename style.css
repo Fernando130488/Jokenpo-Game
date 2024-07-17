@@ -2,28 +2,37 @@ body {
   background-color: rgb(25, 25, 25);
   color: white;
   font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
 }
 
 .title {
-  font-size: 30px;
+  font-size: 60px;
   font-weight: bold;
 }
 
 .move-icon {
-  height: 75px;
+  height: 15vh;
 }
 
 .move-button {
   background-color: transparent;
   border: 3px solid white;
-  width: 120px;
-  height: 120px;
+  width: 20vh;
+  height: 20vh;
   margin-right: 10px;
   cursor: pointer;
 }
 
 .result {
-  font-size: 25px;
+  font-size: 80px;
   font-weight: bold;
   margin-top: 50px;
 }
